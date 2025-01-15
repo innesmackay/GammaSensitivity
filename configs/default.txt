@@ -1,0 +1,19 @@
+debug true
+random_seed 5
+n_toys 1000
+
+n_bins 8
+
+use_cisi true
+sp_inputs inputs/kspipi/measured_ci_si.txt
+Ki_inputs inputs/kspipi/measured_Fi.txt
+
+input_gamma 65
+input_deltaB 118
+input_rB 0.1
+input_coherence 1
+
+N_tot_Bp 15000
+N_tot_Bm 15000
+
+outfile test.txt
